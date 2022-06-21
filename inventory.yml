@@ -1,0 +1,8 @@
+all:
+  hosts:
+    django-server:
+      # ansible_port: 8888
+      ansible_host: 192.168.0.99
+      ansible_user: vagrant
+      ansible_ssh_pass: vagrant
+      ansible_become: yes
